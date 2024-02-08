@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "tailwatch": "tailwindcss -i ./static/tailwind.css -o ./static/index.css --watch"
-  },
   "dependencies": {
     "tailwindcss": "^3.4.1"
   }
