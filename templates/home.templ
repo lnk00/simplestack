@@ -3,7 +3,8 @@ package templates
 templ Home() {
 	@Base() {
 		<div>
-			<h1 class="bg-red-500">Hello, World! From go / htmx template</h1>
+			<h1>Hello, World!</h1>
+			<button hx-on:click="alert('Hello, World!')" class="bg-teal-400 p-2 mt-4 rounded">click me</button>
 		</div>
 	}
 }
